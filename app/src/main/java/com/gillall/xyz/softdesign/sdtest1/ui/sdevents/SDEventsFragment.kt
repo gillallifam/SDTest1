@@ -13,8 +13,6 @@ import com.gillall.xyz.softdesign.sdtest1.R
 import com.gillall.xyz.softdesign.sdtest1.databinding.SdeventsFragmentBinding
 import com.gillall.xyz.softdesign.sdtest1.util.Dialog
 import com.google.android.gms.maps.MapView
-import com.google.android.gms.maps.MapsInitializer
-import kotlinx.android.synthetic.main.dialog_location.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 
@@ -68,7 +66,7 @@ class SDEventsFragment : Fragment() {
         map?.getMapAsync {
             println(it)
         }
-        with(mapView) {
+        /*with(mapView) {
             println(this)
             // Initialise the MapView
             onCreate(null)
@@ -76,7 +74,7 @@ class SDEventsFragment : Fragment() {
             getMapAsync {
                 MapsInitializer.initialize(context)
             }
-        }
+        }*/
         //context?.let { Dialog.dialogCreate(it,R.layout.dialog_location,false).show() }
     }
 }

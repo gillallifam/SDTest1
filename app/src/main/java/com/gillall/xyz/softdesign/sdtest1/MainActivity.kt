@@ -16,6 +16,7 @@ import android.os.Bundle
  * OTHERS
  * BindingAdapters > Create functions for use while binding views
  * FUTURE TASKS
+ * Fix icons on bottom
  * Use a Workmanager to fetch data periodically and update
  * Stop using the endpoint for get a single event, the data is already here.
  * Use Room to store data offline
