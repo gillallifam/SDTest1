@@ -24,6 +24,7 @@ import android.os.Bundle
  * Handle rotate if needed
  * Add loaders while fetch data
  * Setup navigation transitions
+ * Unit tests
  */
 
 class MainActivity : AppCompatActivity() {
